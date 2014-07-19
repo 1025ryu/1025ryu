@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jaehee</title>
+	
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+	
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/styles.css') }}" media="all"/>
+
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/demo.css') }}" media="all"/>
+
+	<script src="{{ url_for('static',filename='js/jquery.js') }}">
+	</script>
+	
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/demo2.css')}}"/>
+
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/elastislide.css') }}"/>
+
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/custom.css') }}"/>
+
+	<script src="{{ url_for('static',filename='js/modernizr.custom.17475.js') }}"></script>
+
+
+</head>
+
+<body>
+	<div class="container">
+
+		<!-- start header here-->
+		<header>
+			<div id="fdw">
+				<!--nav-->
+				<nav>
+					<ul>
+						<li><font size="25">Jaehee Ryu</font></li>
+						<li class="current"><a href="http://mytest-1025ryu.appspot.com/index.html">home<span class="arrow"></span></a>
+							<ul style="display: none;" class="sub_menu">
+								<li class="arrow_top"></li>
+								<li><a class="subCurrent" href="http://mytest-1025ryu.appspot.com/index.html">1 </a></li>
+								<li><a href="http://mytest-1025ryu.appspot.com/index.html">2</a></li>
+							</ul>
+						</li>
+						<li class="current"><a>idea</a></li>
+						<li class="current">
+							
+							<a>who</a>
+						</li>
+						<li class="current"><a>kkk</a></li>
+						
+						<li class="current">
+							<a href="http://mytest-1025ryu.appspot.com/index.html">blog<span class="arrow"></span></a>
+							<ul style="display: none;" class="sub_menu">
+								<li class="arrow_top"></li>
+								<li><a href="http://mytest-1025ryu.appspot.com/index.html">Design</a></li>
+
+							</ul>
+						</li>
+						<li class="current"><a href="http://www.facebook.com/1025ryu">contact</a>
+							<ul style="display: none;" class="sub_menu">
+								<li class="arrow_top"></li>
+								<li><a href="http://www.facebook.com/1025ryu">facebook</a></li>
+								<li><a href="http://snu-yonsei.likelion.net">likelion</a></li>
+
+							</ul>
+
+
+
+						</li>
+
+					</ul>
+				</nav>
+			</div><!-- end fdw -->
+		</header><!-- end header -->
+
+	</div>
+
+	<div id="top">
+		<script src="{{ url_for('static',filename='res/img/note.png') }}" width="80%" height="500" float="center"></script>
+
+	</div>
+	
+
+	<div class="main" id="main">
+		<header class="clearfix">	
+			<h1>Photo</h1>
+
+		</header>
+
+		<!-- Elastislide Carousel -->
+		<ul id="carousel" class="elastislide-list">
+			
+			
+			<li><img src="{{ url_for('static',filename='res/img/1.png') }}" /></a></li>
+			<li><img src="{{ url_for('static',filename='res/img/2.png') }}" /></a></li>
+			<li><img src="{{ url_for('static',filename='res/img/3.png') }}" /></a></li>
+			<li><img src="{{ url_for('static',filename='res/img/4.png') }}" /></a></li>
+			<li><img src="{{ url_for('static',filename='res/img/5.png') }}" /></a></li>
+			<li><img src="{{ url_for('static',filename='res/img/6.png') }}" /></a></li>
+			<li><img src="{{ url_for('static',filename='res/img/7.png') }}" /></a></li>
+		
+		</ul>
+		<!-- End Elastislide Carousel -->
+
+		<br><br>
+		<hr><br><br>
+
+		<header class="clearfix">	
+			<div id="video">
+			<h1>Dance</h1>
+
+		</header>
+
+
+
+		<iframe width="560" height="315" src="http://www.youtube.com/embed/dZZeDx9zmkM" frameborder="0" allowfullscreen></iframe>
+
+		<br>
+		<br>
+		<iframe width="560" height="315" src="http://www.youtube.com/embed/DoPhQYN2jrU" frameborder="0" allowfullscreen></iframe>
+
+
+			</div> 
+
+	</div>
+
+
+
+<br>
+
+
+
+
+<script type="text/javascript" src="{{ url_for('static',filename='js/jquerypp.custom.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static',filename='js/jquery.elastislide.js') }}"></script>
+<script type="text/javascript">
+
+$( '#carousel' ).elastislide();
+
+</script>
+
+<br>	
+
+</body>
+
+<!-- footer -->
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3 text-center">
+				<ul class="list-inline">
+					<li><a href="http://www.facebook.com/1025ryu"><i class="fa fa-facebook fa-3x"></i>
+					</a></li>
+					<li><a href="http://www.facebook.com/1025ryu"><i class="fa fa-twitter fa-3x"></i></a>
+					</li>
+					<li><a href="http://snu-yonsei.likelion.net"><i class="fa fa-bookmark fa-3x"></i></a>
+					</li>
+				</ul>
+				<div class="top-scroll">
+					<i class="fa fa-circle-arrow-up scroll fa-4x"></i>
+				</div>
+				<hr>
+				<p>Copyright &copy; Jaehee 2014</p>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- footer -->
+</html>
